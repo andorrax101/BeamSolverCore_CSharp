@@ -31,13 +31,13 @@ using the model formula approach noted in I.C.Jong's paper: [LINK](https://icjon
 Refer `ANALYSIS_MANUAL.md`([LINK](ANALYSIS_MANUAL.md))for details on the sign convention used by this library.
 ## Concentrated Loads
 Concentrated forces and moments may be defined using the `LoadInstance` object:
-```java
+```C#
 // instantiates a concentrated load of magnitude 5 units acting 3 units away from the beam start
 var pointForce = new LoadInstance(5.0, 3.0);
 ```
 Note that the `LoadInstance` object itself makes no distinction between forces and moments. 
 This distinction is enforced when creating the `LoadAssembly` object:
-```java
+```C#
 var pointForce = new LoadInstance(5.0, 3.0);
 var pointMoment = new LoadInstance(2.0, 3.0);
 
@@ -50,7 +50,7 @@ loadAssembly.AddPointMoment(pointMoment); // LoadInstance object saved as a conc
 Distributed forces and moments may be defined in two ways: 
 
 * Adding in comma separated instances of `LoadInstance` objects:
-```java
+```C#
 // define a trapezoidal distributed force where
 // - force value at 3 units away from beam origin is 5.0
 // - force value at 6 units away from beam origin is 2.0
@@ -62,7 +62,7 @@ loadAssembly.AddDistributedForce(start, end); // LoadInstance objects saved as a
 ```
 
 * Adding in a list of `LoadInstance` objects : 
-```java
+```C#
 List<LoadInstance> loads = getLoadInstances(); // method returns a large list of varying loads (e.g. a sinusoidal wave load)
 
 var loadAssembly = new LoadAssembly();
@@ -81,7 +81,7 @@ Note that the solver does NOT account for unit systems. It is therefore imperati
 `AnalysisModel` are consistent.
 
 An example of model assembly (using SI units) is shown below:
-```java
+```C#
 double beamLength = 10.0; // meters
 double modulus = 32E9; // Pascals
 double momentOfInertia = 0.3*Math.pow(0.6,3)/12; // 0.3m x 0.6m rectangular beam
@@ -94,7 +94,7 @@ AnalysisModel model = new AnalysisModel(beamLength, modulus, momentOfInertia, lo
 
 # Model Solving
 To solve a model, one simply needs to instantiate a solver instance and pass in the `AnalysisModel` object.
-```java
+```C#
   BeamSolver_SS solver = new BeamSolver_SS(model);
 ```
 Each `BeamSolver_SS` instance exposes 4 methods: 
@@ -104,7 +104,7 @@ Each `BeamSolver_SS` instance exposes 4 methods:
 * `GetDeflection()`
 
 Each of these methods takes in a distance value - specifically the distance away from the origin of the beam.
-```java
+```C#
 BeamSolver_SS solver = new BeamSolver_SS(model);
 double startShear = solver.GetShear(0.0);
 double endShear = solver.GetShear(10.0);
