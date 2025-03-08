@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeamSolverCore_CSharp", "BeamSolverCore_CSharp\BeamSolverCore_CSharp.csproj", "{9A62DF8E-3227-4078-8E95-86A5D99562FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6AD374A9-F3FF-4510-BA84-507C1F9454F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A62DF8E-3227-4078-8E95-86A5D99562FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A62DF8E-3227-4078-8E95-86A5D99562FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A62DF8E-3227-4078-8E95-86A5D99562FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A62DF8E-3227-4078-8E95-86A5D99562FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD374A9-F3FF-4510-BA84-507C1F9454F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD374A9-F3FF-4510-BA84-507C1F9454F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD374A9-F3FF-4510-BA84-507C1F9454F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD374A9-F3FF-4510-BA84-507C1F9454F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

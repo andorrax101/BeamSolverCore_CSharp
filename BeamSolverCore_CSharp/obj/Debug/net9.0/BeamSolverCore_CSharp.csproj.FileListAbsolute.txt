@@ -1,0 +1,11 @@
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/bin/Debug/net9.0/BeamSolverCore_CSharp.deps.json
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/bin/Debug/net9.0/BeamSolverCore_CSharp.dll
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/bin/Debug/net9.0/BeamSolverCore_CSharp.pdb
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/BeamSolverCore_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/BeamSolverCore_CSharp.AssemblyInfoInputs.cache
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/BeamSolverCore_CSharp.AssemblyInfo.cs
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/BeamSolverCore_CSharp.csproj.CoreCompileInputs.cache
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/BeamSolverCore_CSharp.dll
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/refint/BeamSolverCore_CSharp.dll
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/BeamSolverCore_CSharp.pdb
+/home/vid/Desktop/Github/BeamSolverCore_CSharp/BeamSolverCore_CSharp/BeamSolverCore_CSharp/obj/Debug/net9.0/ref/BeamSolverCore_CSharp.dll
